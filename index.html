@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta name="vieport" content="width=device-width,initial-scale=1.0" />
+        <title>ホーム画面</title>
+        <link rel="stylesheet" type="text/css" href="home.css" />
+    </head>
+    <body>
+        <script src="tuuchi.js"></script>
+        <div class="bg-pattern Isometric">
+            <!--ボタン配置-->
+            <p1 class="px">難易度【<pstar>★</pstar>☆☆☆】</p1>
+            <br>
+            <input class="btn btn-blue btn-cubic btn-shadow" type="button" value="たし算【1桁+1桁】" onclick="tashizan()"></a>
+            <br>
+            <p1 class="px">難易度【<pstar>★★</pstar>☆☆】</p1>
+            <br>
+            <input class="btn btn-blue btn-cubic btn-shadow" type="button" value="たし算【2桁+1桁】" onclick="tashizan2()">
+            <br>
+            <p1 class="px">難易度【<pstar>★</pstar>☆☆☆】</p1>
+            <br>
+            <input class="btn btn-blue btn-cubic btn-shadow" type="button" value="かけ算" onclick="kakezan()">
+            <br>
+            <p1 class="px">難易度【<pstar>★★★</pstar>☆】</p1>
+            <br>
+            <input class="btn btn-blue btn-cubic btn-shadow" type="button" value="ひき算" onclick="hikizan()">
+            <br>
+            <p1 class="px">難易度【<pstar>★★★★</pstar>】</p1>
+            <br>
+            <input class="btn btn-blue btn-cubic btn-shadow" type="button" value="わり算" onclick="warizan()">
+
+            <!--ボタン内容-->
+            <script>
+                function tashizan() {
+                    location.replace("file:///C:/Users/itoutomoya/Desktop/%E5%8D%92%E6%A5%AD%E7%A0%94%E7%A9%B6/tashizan/tashizan.html")
+                }
+                function tashizan2() {
+                    location.replace("file:///C:/Users/itoutomoya/Desktop/%E5%8D%92%E6%A5%AD%E7%A0%94%E7%A9%B6/tashizan2/tashizan2.html")
+                }
+                function kakezan() {
+                    location.replace("file:///C:/Users/itoutomoya/Desktop/%E5%8D%92%E6%A5%AD%E7%A0%94%E7%A9%B6/kakezan/kakezan.html")
+                }
+                function hikizan() {
+                    location.replace("file:///C:/Users/itoutomoya/Desktop/%E5%8D%92%E6%A5%AD%E7%A0%94%E7%A9%B6/hikizan/hikizan.html")
+                }
+                function warizan() {
+                    location.replace("file:///C:/Users/itoutomoya/Desktop/%E5%8D%92%E6%A5%AD%E7%A0%94%E7%A9%B6/warizan/warizan.html")
+                }
+            </script>
+        </div>
+            <script src="home.js"></script>
+    </body>
+</html>
