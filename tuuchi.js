@@ -7,7 +7,6 @@ window.onload = function() {
     let previousMinutes;
     const options = {
         body: "ボタンをクリックでゲームを始めましょう！",
-              "ああ"
         icon: "bell.png"
     };
     return function() {
