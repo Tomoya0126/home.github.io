@@ -6,7 +6,7 @@ window.onload = function() {
  const checkTime = function() {
     let previousMinutes;
     const options = {
-        body: "調子はどうだい？",
+        body: "ボタンをクリックでゲームを始めましょう！",
         icon: "bell.png"
     };
     return function() {
